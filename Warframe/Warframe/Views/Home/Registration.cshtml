@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string result = "";
+
+    if (IsPost == true)
+    {
+        var login = Request["login"];
+        var password = Request["password"];
+        var email = Request["email"];
+        var word = Request["word"];
+        if (login != "" && password != "" && email != "" && word != "")
+        {
+            var data_file = Server.MapPath("~/BD/fish.txt");
+            var user_information = login + "," + password + "," + email + "," + word + Environment.NewLine;
+
+            File.AppendAllText(@data_file, user_information);
+            result = "Регистрация завершена";
+        }
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Регистрация</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Главная", "Warframe")</li>
+        </ul>
+    </nav>
+    @section reg
+        {
+        <form class="text" id="register" method="post">
+            <input type="text" name="login" placeholder="Логин" /> <br />
+            <input type="text" name="password" placeholder="Пароль" /> <br />
+            <input type="text" name="email" placeholder="Почта" /> <br />
+            <input type="text" name="word" placeholder="Секретное слово" /> <br />
+            <input  type="submit" value="Зарегестрировать" />
+            <nav>
+                <ul>
+                    <li>
+                        @Html.ActionLink("Логин", "Login")
+                    </li>
+                </ul>
+            </nav>
+        </form>
+    }
+    @section video
+        {
+        <div>
+            <video class="video" autoplay loop>
+                <source src="~/Video/Warframe%20_%20We%20All%20Lift%20Together.mp4" type="video/mp4" />
+            </video>
+        </div>
+    }
+
+    @if (result != "")
+    {
+        @result
+    }
+</body>
+</html>

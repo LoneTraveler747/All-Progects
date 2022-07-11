@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\bin\Debug\GoodLuck.exe.config
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\bin\Debug\GoodLuck.exe
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\bin\Debug\GoodLuck.pdb
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\obj\Debug\GoodLuck.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\obj\Debug\GoodLuck.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\obj\Debug\GoodLuck.exe
+C:\Users\Lone_Traveler\source\repos\GoodLuck\GoodLuck\obj\Debug\GoodLuck.pdb

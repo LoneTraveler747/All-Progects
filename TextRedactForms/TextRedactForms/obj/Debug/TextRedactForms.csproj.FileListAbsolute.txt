@@ -1,0 +1,9 @@
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\bin\Debug\TextRedactForms.exe.config
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\bin\Debug\TextRedactForms.exe
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\bin\Debug\TextRedactForms.pdb
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\obj\Debug\TextRedactForms.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\obj\Debug\TextRedactForms.Form1.resources
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\obj\Debug\TextRedactForms.Properties.Resources.resources
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\obj\Debug\TextRedactForms.csproj.GenerateResource.cache
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\obj\Debug\TextRedactForms.exe
+C:\Users\Lone_Traveler\source\repos\TextRedactForms\TextRedactForms\obj\Debug\TextRedactForms.pdb

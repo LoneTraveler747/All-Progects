@@ -1,0 +1,41 @@
+﻿@model WarframeMarketCore.Models.Person
+@{
+    ViewData["Title"] = "Registration";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <title>Warframe.Аккаунт</title>
+</head>
+<body>
+    <div style="background-color:whitesmoke;color:white;padding:20px;opacity: .9;">
+        <form asp-controller="home" asp-action="User" method="post" style="height:200px; width:200px">
+            <div>
+                <input asp-for="login" placeholder="Логин" /> <br />
+                <span asp-validation-for="login"></span>
+            </div>
+            <div>
+                <input asp-for="password" placeholder="Пароль" /> <br />
+                <span asp-validation-for="password"></span>
+            </div>
+            <div>
+                <input asp-for="passwordconfirm" placeholder="Потверждение пароля" /> <br />
+                <span asp-validation-for="passwordconfirm"></span>
+
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+            <input type="submit" value="Регистрация" />
+
+        </form>
+    </div>
+    <div id="mainContent">
+        <div id="newsIndex">
+        </div>
+    </div>
+</body>
+</html>

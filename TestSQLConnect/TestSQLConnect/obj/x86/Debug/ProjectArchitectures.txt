@@ -1,0 +1,1 @@
+C:\Users\Lone_Traveler\source\repos\TestSQLConnect\TestSQLConnect\TestSQLConnect.csproj;x86

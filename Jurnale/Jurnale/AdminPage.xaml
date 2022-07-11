@@ -1,0 +1,143 @@
+﻿<Page
+    x:Class="Jurnale.AdminPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Jurnale"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Center" Width="auto" Click="Exit_Click" />
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button x:Name="openRasp" Content="Показать расписание" HorizontalAlignment="Center" Width="auto" Click="openRasp_Click"/>
+        </Grid>
+        <Pivot x:Name="rootPivot" Title="Администратор" Grid.Row="3">
+            <PivotItem Header="Дисциплина">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="Добавить дисциплину" Grid.Column="0" HorizontalAlignment="Stretch" Click="Button_Click"/>
+                        <Button Content="Изменить" Grid.Column="2" HorizontalAlignment="Stretch" Click="Button_Click_1"/>
+                        <TextBox x:Name="disciplineText" PlaceholderText="Дисциплина" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Center"/>
+                        <Button  Content="Удалить дисциплину" Grid.Column="6" HorizontalAlignment="Stretch" Click="Button_Click_2"/>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <ListBox x:Name="discipline">
+
+                        </ListBox>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Группа">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="Добавить группу" Grid.Column="0" HorizontalAlignment="Stretch" Name="addGroupe" Click="addGroupe_Click" />
+                        <Button Content="Изменить Группу" Grid.Column="2" HorizontalAlignment="Stretch" Name="changeGroupe" Click="changeGroupe_Click"/>
+                        <TextBox x:Name="gRoupeText" PlaceholderText="Группа" Grid.Column="4" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Center"/>
+                        <Button  Content="Удалить группу" Grid.Column="6" HorizontalAlignment="Stretch" Name="DeleteGroupe" Click="DeleteGroupe_Click"/>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <ListBox x:Name="gRoupe">
+
+                        </ListBox>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Пользователи">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" HorizontalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="Добавить" Grid.Column="0" HorizontalAlignment="Stretch" Name="newUser" Click="newUser_Click"/>
+                        <Button Content="Удалить" Grid.Column="2" HorizontalAlignment="Stretch" Name="deleteUser" Click="deleteUser_Click"/>
+                        <Button Content="Сохранить" Grid.Column="4" HorizontalAlignment="Stretch" Name="onClickSaveUsers" Click="SaveUsers_Click"/>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <controls:DataGrid x:Name="dataGrid" Height="600" Margin="12" AutoGenerateColumns="True" CellEditEnded="dataGrid_CellEditEnded">
+                        </controls:DataGrid>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Рассписание">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" HorizontalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox Name="phonesList"  Grid.Column="0" Header="Вывод номера расписания" PlaceholderText="Выберите расписание"/>
+                        <ComboBox Name="groupeListData"  Grid.Column="2" Header="Выбор номера группы" PlaceholderText="Выберите группу"/>
+                        <TextBox x:Name="dayWeeck" Grid.Column="4" IsSpellCheckEnabled="True" PlaceholderText="Введите день недели..." VerticalAlignment="Center" FontSize="20"/>
+                        <Button x:Name="accessBut" Grid.Column="5" Content="Добавить" HorizontalAlignment="Center" Click="accessBut_Click"/>
+
+                        <!--<Button Content="Добавть" Grid.Column="0" HorizontalAlignment="Stretch" Name="newUser" Click="newUser_Click"/>
+                        <Button Content="Удалить" Grid.Column="2" HorizontalAlignment="Stretch" Name="deleteUser" Click="deleteUser_Click"/>
+                        <Button Content="Сохранить" Grid.Column="4" HorizontalAlignment="Stretch" Name="onClickSaveUsers" Click="SaveUsers_Click"/>-->
+                    </Grid>
+                    <Grid Grid.Row="1" Visibility="Visible" Name="view1">
+                        <controls:DataGrid x:Name="dataGridRaspisanie" Height="600" Margin="12" AutoGenerateColumns="True">
+                        </controls:DataGrid>
+                    </Grid>
+                    <Grid Grid.Row="1" Visibility="Collapsed" Name="view2">
+                        <controls:DataGrid x:Name="raspisanie" Height="600" Margin="12" AutoGenerateColumns="True">
+                        </controls:DataGrid>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>

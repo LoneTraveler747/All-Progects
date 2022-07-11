@@ -1,0 +1,11 @@
+C:\Users\Lone_Traveler\source\repos\kj\kj\bin\Debug\netcoreapp3.1\kj.exe
+C:\Users\Lone_Traveler\source\repos\kj\kj\bin\Debug\netcoreapp3.1\kj.deps.json
+C:\Users\Lone_Traveler\source\repos\kj\kj\bin\Debug\netcoreapp3.1\kj.runtimeconfig.json
+C:\Users\Lone_Traveler\source\repos\kj\kj\bin\Debug\netcoreapp3.1\kj.runtimeconfig.dev.json
+C:\Users\Lone_Traveler\source\repos\kj\kj\bin\Debug\netcoreapp3.1\kj.dll
+C:\Users\Lone_Traveler\source\repos\kj\kj\bin\Debug\netcoreapp3.1\kj.pdb
+C:\Users\Lone_Traveler\source\repos\kj\kj\obj\Debug\netcoreapp3.1\kj.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\kj\kj\obj\Debug\netcoreapp3.1\kj.AssemblyInfoInputs.cache
+C:\Users\Lone_Traveler\source\repos\kj\kj\obj\Debug\netcoreapp3.1\kj.AssemblyInfo.cs
+C:\Users\Lone_Traveler\source\repos\kj\kj\obj\Debug\netcoreapp3.1\kj.dll
+C:\Users\Lone_Traveler\source\repos\kj\kj\obj\Debug\netcoreapp3.1\kj.pdb

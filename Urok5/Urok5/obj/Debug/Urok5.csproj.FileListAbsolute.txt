@@ -1,0 +1,2 @@
+C:\Users\Lone_Traveler\source\repos\Urok5\Urok5\obj\Debug\Urok5.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Urok5\Urok5\obj\Debug\Urok5.csproj.CoreCompileInputs.cache

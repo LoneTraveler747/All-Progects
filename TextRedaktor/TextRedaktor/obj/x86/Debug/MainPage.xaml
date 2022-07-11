@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="TextRedaktor.MainPage"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TextRedaktor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40px"/>
+            <RowDefinition Height="40px"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <controls:MenuBar>
+                <controls:MenuBarItem Title="Файл">
+                    <MenuFlyoutItem x:ConnectionId='18' Text="Новый файл" Name="newFile"                      />
+                    <MenuFlyoutItem x:ConnectionId='19' Text="Открыть" Name="open"                    />
+                    <MenuFlyoutItem x:ConnectionId='20' Text="Сохранить"                             />
+                    <MenuFlyoutItem x:ConnectionId='21' Text="Сохранить как" Name="SaveAs"                     />
+                    <MenuFlyoutItem x:ConnectionId='22' Text="Печатать" Name="Print"                     />
+                    <MenuFlyoutSeparator />
+                    <MenuFlyoutItem x:ConnectionId='23' Text="Выход" Name="Exit"                    />
+                </controls:MenuBarItem>
+                <controls:MenuBarItem Title="Edit">
+                    <MenuFlyoutItem x:ConnectionId='11' Text="Вперед" Name="MenuFlyoutReUndo"                                />
+                    <MenuFlyoutItem x:ConnectionId='12' Text="Назад" Name="MenuFlyoutUndo"                              />
+                    <MenuFlyoutItem x:ConnectionId='13' Text="Вырезать" Name="MenuFlyoutCut"                             />
+                    <MenuFlyoutItem x:ConnectionId='14' Text="Копировать" Name="MenuFlyoutCopy"                             />
+                    <MenuFlyoutItem x:ConnectionId='15' Text="Вставить" Name="MenuFlyoutPaste"                               />
+                    <MenuFlyoutItem x:ConnectionId='16' Text="Удалить" Name="Delete"                      />
+                    <MenuFlyoutItem x:ConnectionId='17' Text="Выделить всё" Name="MenuFlyoutSelectAll"                                   />
+                </controls:MenuBarItem>
+                <controls:MenuBarItem Title="Справка">
+                    <MenuFlyoutItem x:ConnectionId='9' Text="О программе"                               />
+                    <MenuFlyoutItem x:ConnectionId='10' Text="Посмотреть справку"                                />
+                </controls:MenuBarItem>
+            </controls:MenuBar>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="200px"/>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="100px"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='3' x:Name="bold" Content="B" Grid.Column="0" HorizontalAlignment="Stretch"                   />
+            <Button x:ConnectionId='4' x:Name="kurs" Content="ҝ" Grid.Column="1" HorizontalAlignment="Stretch"                    />
+            <Button x:ConnectionId='5' x:Name="underlinedText" Content="Ч̲е̲р̲т̲а̲" Grid.Column="2" HorizontalAlignment="Stretch"                             />
+            <ComboBox x:ConnectionId='6' x:Name="Font" HorizontalAlignment="Stretch" Grid.Column="3"                                      ></ComboBox>
+            <TextBox x:ConnectionId='7' x:Name="razmer" HorizontalAlignment="Stretch" Grid.Column="4"                                 />
+            <ComboBox x:ConnectionId='8' x:Name="colors" HorizontalAlignment="Stretch" Grid.Column="5"                                       >
+                <ComboBoxItem>
+                    <Rectangle Fill="Azure" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="Aqua" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="Chocolate" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="Black" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="White" Height="30px"/>
+                </ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <RichEditBox x:ConnectionId='2' HorizontalAlignment="Stretch" x:Name="editText"/>
+        </Grid>
+    </Grid>
+</Page>
+

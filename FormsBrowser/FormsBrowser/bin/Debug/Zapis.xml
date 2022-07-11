@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfZapis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <zapis>
+    <web>https://yandex.ru/</web>
+  </zapis>
+  <zapis>
+    <web>https://yandex.ru/</web>
+  </zapis>
+</ArrayOfZapis>

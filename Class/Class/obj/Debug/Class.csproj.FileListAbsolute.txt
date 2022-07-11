@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Class\Class\bin\Debug\Class.exe.config
+C:\Users\Lone_Traveler\source\repos\Class\Class\bin\Debug\Class.exe
+C:\Users\Lone_Traveler\source\repos\Class\Class\bin\Debug\Class.pdb
+C:\Users\Lone_Traveler\source\repos\Class\Class\obj\Debug\Class.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Class\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Class\Class\obj\Debug\Class.exe
+C:\Users\Lone_Traveler\source\repos\Class\Class\obj\Debug\Class.pdb

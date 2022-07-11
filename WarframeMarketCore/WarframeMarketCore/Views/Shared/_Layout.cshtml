@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <title>Warframe</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li>@Html.ActionLink("Главная", "Index")</li>
+                <li>@Html.ActionLink("Каталог", "Market")</li>
+                <li>@Html.ActionLink("Личный кабинет", "PersonalAccount")</li>
+                <li>@Html.ActionLink("Регистрация", "Registration")</li>
+                <li>@Html.ActionLink("Логин", "Login")</li>
+            </ul>
+        </nav>
+    </div>
+    @RenderBody()
+    <div>
+        <img class="img" src="~/Img/image.jpg" />
+    </div>
+    <div id="footer">
+        <div class="footerContain row">
+            <div class="footerlinkSection two colums">
+                <h4>Warframe</h4>
+                <ul>
+                    <li>
+                        <p> Проверка на тексте, т.к. пока больше ничего нет) Аля Сделал Русецкий Михаил Александрович Группы П50-3-18</p>
+                    </li>
+                    <li>
+                        <p>Вроде как сюда должны были поместить контактный номер, но..... БЛА БЛА БЛА</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerlinkSection tooltip colums">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

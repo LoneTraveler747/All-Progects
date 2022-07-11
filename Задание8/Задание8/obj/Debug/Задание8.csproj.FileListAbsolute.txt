@@ -1,0 +1,6 @@
+C:\Users\Lone_Traveler\source\repos\Задание8\Задание8\bin\Debug\Задание8.exe.config
+C:\Users\Lone_Traveler\source\repos\Задание8\Задание8\bin\Debug\Задание8.exe
+C:\Users\Lone_Traveler\source\repos\Задание8\Задание8\bin\Debug\Задание8.pdb
+C:\Users\Lone_Traveler\source\repos\Задание8\Задание8\obj\Debug\Задание8.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Задание8\Задание8\obj\Debug\Задание8.exe
+C:\Users\Lone_Traveler\source\repos\Задание8\Задание8\obj\Debug\Задание8.pdb

@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\bin\Debug\Urok2.exe.config
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\bin\Debug\Urok2.exe
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\bin\Debug\Urok2.pdb
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\obj\Debug\Urok2.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\obj\Debug\Urok2.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\obj\Debug\Urok2.exe
+C:\Users\Lone_Traveler\source\repos\Urok2\Urok2\obj\Debug\Urok2.pdb

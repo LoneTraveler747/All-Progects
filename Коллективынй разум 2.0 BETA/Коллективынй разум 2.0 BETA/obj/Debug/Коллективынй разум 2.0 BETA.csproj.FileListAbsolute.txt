@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\bin\Debug\Коллективынй разум 2.0 BETA.exe.config
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\bin\Debug\Коллективынй разум 2.0 BETA.exe
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\bin\Debug\Коллективынй разум 2.0 BETA.pdb
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\obj\Debug\Коллективынй разум 2.0 BETA.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\obj\Debug\Коллективынй разум 2.0 BETA.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\obj\Debug\Коллективынй разум 2.0 BETA.exe
+C:\Users\Lone_Traveler\source\repos\Коллективынй разум 2.0 BETA\Коллективынй разум 2.0 BETA\obj\Debug\Коллективынй разум 2.0 BETA.pdb

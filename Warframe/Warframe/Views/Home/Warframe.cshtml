@@ -1,0 +1,46 @@
+﻿@model Warframe.Models.ClasssWarf
+@{
+    ViewBag.Title = "Warframe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>Warframe</title>
+</head>
+<body>
+    @section reg{
+            @Html.LabelFor(x => x.Id)
+            @Html.EditorFor(x => x.Id)
+        <br />
+            @Html.LabelFor(x => x.Name)
+            @Html.EditorFor(x => x.Name)
+        <br />
+            @Html.LabelFor(x => x.Prime)
+            @Html.EditorFor(x => x.Prime)
+
+        <p><h2>Для вида чисто</h2></p>
+
+            @Html.LabelFor(x => x.Id)
+            @Html.DisplayFor(x => x.Id)
+        <br />
+            @Html.LabelFor(x => x.Name)
+            @Html.DisplayFor(x => x.Name)
+        <br />
+            @Html.LabelFor(x => x.Prime)
+            @Html.DisplayFor(x => x.Prime)    
+        }
+    @section video
+        {
+        <div>
+            <video class="video" autoplay loop>
+                <source src="~/Video/Warframe%20-%20Official%20Cinematic%20Opening%20Trailer.mp4" type="video/mp4" />
+            </video>
+        </div>
+    }
+
+</body>
+</html>

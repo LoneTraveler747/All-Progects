@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\bin\Debug\10quest.exe.config
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\bin\Debug\10quest.exe
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\bin\Debug\10quest.pdb
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\obj\Debug\10quest.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\obj\Debug\10quest.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\obj\Debug\10quest.exe
+C:\Users\Lone_Traveler\source\repos\10quest\10quest\obj\Debug\10quest.pdb

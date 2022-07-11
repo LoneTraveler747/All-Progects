@@ -1,0 +1,6 @@
+C:\Users\Lone_Traveler\source\repos\ExampleApp\ExampleApp\bin\Debug\ExampleApp.exe.config
+C:\Users\Lone_Traveler\source\repos\ExampleApp\ExampleApp\bin\Debug\ExampleApp.exe
+C:\Users\Lone_Traveler\source\repos\ExampleApp\ExampleApp\bin\Debug\ExampleApp.pdb
+C:\Users\Lone_Traveler\source\repos\ExampleApp\ExampleApp\obj\Debug\ExampleApp.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\ExampleApp\ExampleApp\obj\Debug\ExampleApp.exe
+C:\Users\Lone_Traveler\source\repos\ExampleApp\ExampleApp\obj\Debug\ExampleApp.pdb

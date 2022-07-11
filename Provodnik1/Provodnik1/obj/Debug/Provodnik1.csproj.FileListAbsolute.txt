@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\bin\Debug\Provodnik1.exe.config
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\bin\Debug\Provodnik1.exe
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\bin\Debug\Provodnik1.pdb
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\obj\Debug\Provodnik1.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\obj\Debug\Provodnik1.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\obj\Debug\Provodnik1.exe
+C:\Users\Lone_Traveler\source\repos\Provodnik1\Provodnik1\obj\Debug\Provodnik1.pdb

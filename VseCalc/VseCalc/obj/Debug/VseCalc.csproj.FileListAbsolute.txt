@@ -1,0 +1,13 @@
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\bin\Debug\VseCalc.exe.config
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\bin\Debug\VseCalc.exe
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\bin\Debug\VseCalc.pdb
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.Form1.resources
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.Properties.Resources.resources
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.csproj.GenerateResource.cache
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.exe
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.pdb
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\bin\Debug\Sprache.Calc.dll
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\bin\Debug\Sprache.dll
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\bin\Debug\Sprache.xml
+C:\Users\Lone_Traveler\source\repos\VseCalc\VseCalc\obj\Debug\VseCalc.csproj.CopyComplete

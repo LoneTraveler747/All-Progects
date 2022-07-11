@@ -1,0 +1,6 @@
+C:\Users\Lone_Traveler\source\repos\Задание 6\Задание 6\bin\Debug\Задание 6.exe.config
+C:\Users\Lone_Traveler\source\repos\Задание 6\Задание 6\bin\Debug\Задание 6.exe
+C:\Users\Lone_Traveler\source\repos\Задание 6\Задание 6\bin\Debug\Задание 6.pdb
+C:\Users\Lone_Traveler\source\repos\Задание 6\Задание 6\obj\Debug\Задание 6.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Задание 6\Задание 6\obj\Debug\Задание 6.exe
+C:\Users\Lone_Traveler\source\repos\Задание 6\Задание 6\obj\Debug\Задание 6.pdb

@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\bin\Debug\Strukture.exe.config
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\bin\Debug\Strukture.exe
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\bin\Debug\Strukture.pdb
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\obj\Debug\Strukture.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\obj\Debug\Strukture.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\obj\Debug\Strukture.exe
+C:\Users\Lone_Traveler\source\repos\Strukture\Strukture\obj\Debug\Strukture.pdb

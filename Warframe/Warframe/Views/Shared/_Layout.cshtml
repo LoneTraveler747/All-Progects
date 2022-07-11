@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>Warframe</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>@Html.ActionLink("Главная", "Warframe")</li>
+            <li>@Html.ActionLink("Регистрация", "Registration")</li>
+            <li><a href="https://warframe.market/ru">Маркет</a></li>
+            <li>
+                <a href="https://warframe.fandom.com/ru">Варфрейм</a>
+                <ul>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                    <li><a href="https://warframe.fandom.com/ru">Варфрейм</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Location</a>
+                <ul>
+                    @Html.ActionLink("Фартуна", "Soveti")
+                </ul>
+            </li>
+            <li>@Html.ActionLink("Пустая страница", "CookFilter")</li>
+
+        </ul>
+    </nav>
+    @RenderSection("reg", required: true)
+    @RenderSection("video", required: false)
+</body>
+</html>

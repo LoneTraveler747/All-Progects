@@ -1,0 +1,6 @@
+C:\Users\Lone_Traveler\source\repos\Задание5\Задание5\bin\Debug\Задание5.exe.config
+C:\Users\Lone_Traveler\source\repos\Задание5\Задание5\bin\Debug\Задание5.exe
+C:\Users\Lone_Traveler\source\repos\Задание5\Задание5\bin\Debug\Задание5.pdb
+C:\Users\Lone_Traveler\source\repos\Задание5\Задание5\obj\Debug\Задание5.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Задание5\Задание5\obj\Debug\Задание5.exe
+C:\Users\Lone_Traveler\source\repos\Задание5\Задание5\obj\Debug\Задание5.pdb

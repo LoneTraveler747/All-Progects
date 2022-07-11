@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\bin\Debug\Mass2.exe.config
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\bin\Debug\Mass2.exe
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\bin\Debug\Mass2.pdb
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\obj\Debug\Mass2.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\obj\Debug\Mass2.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\obj\Debug\Mass2.exe
+C:\Users\Lone_Traveler\source\repos\Mass2\Mass2\obj\Debug\Mass2.pdb

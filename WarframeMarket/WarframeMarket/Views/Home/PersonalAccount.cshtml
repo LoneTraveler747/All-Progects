@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "PersonalAccount";
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>Warframe.Аккаунт</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li>@Html.ActionLink("Главная", "Index")</li>
+                <li>@Html.ActionLink("Каталог", "Market")</li>
+                <li>@Html.ActionLink("Личный кабинет", "PersonalAccount")</li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div>
+        <img class="img" src="~/Img/image.jpg" />
+    </div>  
+
+
+    <div id="mainContent">
+        <div id="newsIndex">
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footerContain row">
+            <div class="footerlinkSection two colums">
+                <h4>Warframe</h4>
+                <ul>
+                    <li>
+                        <p> Личный кабинет </p>
+                    </li>
+                    <li>
+                        <p> hjkghkhgjkghjkgjkjgkhgjkhgkghjkghkjkhjkhjkhj</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerlinkSection tooltip colums">
+            </div>
+            <div class="info">
+                <input id="info__body_1" class="info__switch" type="checkbox">
+                <label for="info__body_1" class="info__headline">Примечание</label>
+                <div class="info__body">
+                    Вебинары образовательного проекта Level One — современный формат интеллектуального досуга, который будет интересен всем, кто хочет узнать что-то новое. Всего за пару часов вы совершите путешествие в увлекательный мир науки и искусства. Талантливые лекторы
+                    поделятся своими знаниями, доступно расскажут о важных научных открытиях и расширят ваш кругозор.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+

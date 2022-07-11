@@ -1,0 +1,112 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Jurnale.PrepodPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Jurnale"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                     >
+
+    <Grid>
+        <Grid Grid.Row="0">
+        </Grid>
+        <Grid Grid.Row="1">
+        </Grid>
+        <Pivot x:ConnectionId='2' x:Name="rootPivot" Title="Преподаватель" Grid.Row="2">
+            <PivotItem Header="Журнал">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox x:ConnectionId='19' x:Name="Distciplins" Grid.Column="0" HorizontalAlignment="Stretch" Height="50"                                                />
+                        <ComboBox x:ConnectionId='20' x:Name="GroupesAll" Grid.Column="2" HorizontalAlignment="Stretch" Height="50"                                               />
+                        <DatePicker x:ConnectionId='21' x:Name="dataPicker" Grid.Column="4" HorizontalAlignment="Stretch" Height="50"/>
+                        <Button x:ConnectionId='22' x:Name="SaveAll" Grid.Column="6" HorizontalAlignment="Stretch" Height="30" Content="Сохранить"                       />
+                        <Button x:ConnectionId='23' x:Name="CreateExcelFile" Grid.Column="8" HorizontalAlignment="Stretch" Height="30" Content="Создать файл Excel"                               />
+                        <Button x:ConnectionId='24' Grid.Column="10" HorizontalAlignment="Stretch" Content="Выйти"                     />
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <controls:DataGrid x:ConnectionId='18' x:Name="dataGrid" Height="600" Margin="12" AutoGenerateColumns="True"                                       >
+                        </controls:DataGrid>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Письмо">
+                <Grid>
+                    <Grid x:ConnectionId='3' Visibility="Visible" x:Name="XXX">
+                        <TextBox x:ConnectionId='15' x:Name="login" HorizontalAlignment="Center" VerticalAlignment ="Center" Margin="0,0,0,100" Width="250px" PlaceholderText="Почта"/>
+                        <PasswordBox x:ConnectionId='16' x:Name="password" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="250px" PlaceholderText="Пароль"/>
+                        <Button x:ConnectionId='17' x:Name="InPut" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,100,0,0" Width="100px" Height="35" Content="Вход"                    />
+                    </Grid>
+                    <Grid x:ConnectionId='4' Visibility="Collapsed" x:Name="YYY">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.25*"/>
+                            <ColumnDefinition Width="1"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="1"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <ListBox x:ConnectionId='13' x:Name="Menu"                                          Grid.Row="0"/>
+                            <Button x:ConnectionId='14' Name="WriteLatter" Content="Написать письмо" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                          />
+                        </Grid>
+                        <Grid Grid.Column="1">
+                        </Grid>
+                        <Grid Grid.Column="2">
+                            <ListBox x:ConnectionId='12' x:Name="view"                                           />
+                        </Grid>
+
+                        <Grid x:ConnectionId='5' Grid.Column="3" Name="GridLatterView" Visibility="Visible">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0" Background="Red"/>
+                            <TextBlock x:ConnectionId='11' Name="latter" Grid.Column="1"/>
+                        </Grid>
+                        <Grid x:ConnectionId='6' Grid.Column="3" Name="GridLatterWrite" Visibility="Collapsed">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="5"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="5"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="5"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="5"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <TextBox x:ConnectionId='7' Grid.Row="1" PlaceholderText="Кому" Name="user"/>
+                            <TextBox x:ConnectionId='8' Grid.Row="3" PlaceholderText="Тема" Name ="teg"/>
+                            <TextBox x:ConnectionId='9' Grid.Row="5" PlaceholderText="Письмо" Name="LatterText" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                            <Button x:ConnectionId='10' Name="AddLatterToSend" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="7" Content="Отправить письмо"                               />
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INFA", "INFA\INFA.csproj", "{CBB83527-D5BB-474A-8AFC-F2FDD89D1FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBB83527-D5BB-474A-8AFC-F2FDD89D1FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB83527-D5BB-474A-8AFC-F2FDD89D1FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB83527-D5BB-474A-8AFC-F2FDD89D1FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB83527-D5BB-474A-8AFC-F2FDD89D1FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {175C7D4B-8313-4D24-A330-C752C2A18AA8}
+	EndGlobalSection
+EndGlobal

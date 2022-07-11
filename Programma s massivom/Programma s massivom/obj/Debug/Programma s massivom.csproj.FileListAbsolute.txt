@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\bin\Debug\Programma s massivom.exe.config
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\bin\Debug\Programma s massivom.exe
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\bin\Debug\Programma s massivom.pdb
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\obj\Debug\Programma s massivom.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\obj\Debug\Programma s massivom.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\obj\Debug\Programma s massivom.exe
+C:\Users\Lone_Traveler\source\repos\Programma s massivom\Programma s massivom\obj\Debug\Programma s massivom.pdb

@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\bin\Debug\Prakti4eskaya2.exe.config
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\bin\Debug\Prakti4eskaya2.exe
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\bin\Debug\Prakti4eskaya2.pdb
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\obj\Debug\Prakti4eskaya2.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\obj\Debug\Prakti4eskaya2.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\obj\Debug\Prakti4eskaya2.exe
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya2\Prakti4eskaya2\obj\Debug\Prakti4eskaya2.pdb

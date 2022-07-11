@@ -1,0 +1,29 @@
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Ночная работа.exe
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\staticwebassets\Ночная работа.StaticWebAssets.Manifest.cache
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\staticwebassets\Ночная работа.StaticWebAssets.xml
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.AssemblyInfoInputs.cache
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.AssemblyInfo.cs
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.RazorTargetAssemblyInfo.cache
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\System.Web.Mvc.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.csproj.CopyComplete
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Ночная работа.deps.json
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Ночная работа.runtimeconfig.json
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Ночная работа.runtimeconfig.dev.json
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Ночная работа.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Ночная работа.pdb
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.dll
+C:\Users\Lone_Traveler\source\repos\Ночная работа\Ночная работа\obj\Debug\netcoreapp3.1\Ночная работа.pdb

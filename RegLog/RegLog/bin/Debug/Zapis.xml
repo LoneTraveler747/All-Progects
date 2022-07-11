@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfZapis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <zapis>
+    <login1>jfgh</login1>
+    <password1>111</password1>
+    <seriaPassport1>5656</seriaPassport1>
+    <numberPassport1>564564</numberPassport1>
+    <numberPhone1>6(546) 456-4554</numberPhone1>
+    <mail1>jhg@jhgj.hj</mail1>
+    <pol1>Мужской</pol1>
+  </zapis>
+  <zapis>
+    <login1>лорлп</login1>
+    <password1>111</password1>
+    <seriaPassport1>6765</seriaPassport1>
+    <numberPassport1>756756</numberPassport1>
+    <numberPhone1>7(655) 675-6756</numberPhone1>
+    <mail1>ролп@лрпол.лпр</mail1>
+    <pol1>Мужской</pol1>
+  </zapis>
+  <zapis>
+    <login1>kjhgk</login1>
+    <password1>143</password1>
+    <seriaPassport1>6546</seriaPassport1>
+    <numberPassport1>645645</numberPassport1>
+    <numberPhone1>6(456) 456-4564</numberPhone1>
+    <mail1>jgh@jhg.jgh</mail1>
+    <pol1>Женский</pol1>
+  </zapis>
+</ArrayOfZapis>

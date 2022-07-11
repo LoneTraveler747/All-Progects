@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\obj\Debug\Na pervoe vremya.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\obj\Debug\Na pervoe vremya.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\bin\Debug\Na pervoe vremya.exe.config
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\bin\Debug\Na pervoe vremya.exe
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\bin\Debug\Na pervoe vremya.pdb
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\obj\Debug\Na pervoe vremya.exe
+C:\Users\Lone_Traveler\source\repos\Na pervoe vremya\Na pervoe vremya\obj\Debug\Na pervoe vremya.pdb

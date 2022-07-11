@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoDrgsForm", "MotoDrgsForm\MotoDrgsForm.csproj", "{179D3A95-46FF-42D5-80A7-6D7E30F16DFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{179D3A95-46FF-42D5-80A7-6D7E30F16DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179D3A95-46FF-42D5-80A7-6D7E30F16DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179D3A95-46FF-42D5-80A7-6D7E30F16DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179D3A95-46FF-42D5-80A7-6D7E30F16DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC200A3-CA27-406A-88C1-44FF34372E08}
+	EndGlobalSection
+EndGlobal

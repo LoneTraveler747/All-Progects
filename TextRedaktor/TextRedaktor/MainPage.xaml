@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="TextRedaktor.MainPage"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TextRedaktor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40px"/>
+            <RowDefinition Height="40px"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <controls:MenuBar>
+                <controls:MenuBarItem Title="Файл">
+                    <MenuFlyoutItem Text="Новый файл" Name="newFile" Click="newFile_Click"/>
+                    <MenuFlyoutItem Text="Открыть" Name="open" Click="open_Click" />
+                    <MenuFlyoutItem Text="Сохранить" Click="MenuFlyoutItem_Click"/>
+                    <MenuFlyoutItem Text="Сохранить как" Name="SaveAs" Click="SaveAs_Click"/>
+                    <MenuFlyoutItem Text="Печатать" Name="Print" Click="Print_Click" />
+                    <MenuFlyoutSeparator />
+                    <MenuFlyoutItem Text="Выход" Name="Exit" Click="Exit_Click" />
+                </controls:MenuBarItem>
+                <controls:MenuBarItem Title="Edit">
+                    <MenuFlyoutItem Text="Вперед" Name="MenuFlyoutReUndo" Click="MenuFlyoutReUndo_Click" />
+                    <MenuFlyoutItem Text="Назад" Name="MenuFlyoutUndo" Click="MenuFlyoutUndo_Click" />
+                    <MenuFlyoutItem Text="Вырезать" Name="MenuFlyoutCut" Click="MenuFlyoutCut_Click" />
+                    <MenuFlyoutItem Text="Копировать" Name="MenuFlyoutCopy" Click="MenuFlyoutCopy_Click"/>
+                    <MenuFlyoutItem Text="Вставить" Name="MenuFlyoutPaste" Click="MenuFlyoutPaste_Click" />
+                    <MenuFlyoutItem Text="Удалить" Name="Delete" Click="Delete_Click" />
+                    <MenuFlyoutItem Text="Выделить всё" Name="MenuFlyoutSelectAll" Click="MenuFlyoutSelectAll_Click" />
+                </controls:MenuBarItem>
+                <controls:MenuBarItem Title="Справка">
+                    <MenuFlyoutItem Text="О программе" Click="MenuFlyoutItem_Click_1"/>
+                    <MenuFlyoutItem Text="Посмотреть справку" Click="MenuFlyoutItem_Click_2" />
+                </controls:MenuBarItem>
+            </controls:MenuBar>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="200px"/>
+                <ColumnDefinition Width="100px"/>
+                <ColumnDefinition Width="100px"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="bold" Content="B" Grid.Column="0" HorizontalAlignment="Stretch" Click="bold_Click"/>
+            <Button x:Name="kurs" Content="ҝ" Grid.Column="1" HorizontalAlignment="Stretch" Click="kurs_Click" />
+            <Button x:Name="underlinedText" Content="Ч̲е̲р̲т̲а̲" Grid.Column="2" HorizontalAlignment="Stretch" Click="underlinedText_Click"/>
+            <ComboBox x:Name="Font" HorizontalAlignment="Stretch" Grid.Column="3" DropDownClosed="Font_DropDownClosed" ></ComboBox>
+            <TextBox x:Name="razmer" HorizontalAlignment="Stretch" Grid.Column="4" TextChanged="razmer_TextChanged"/>
+            <ComboBox x:Name="colors" HorizontalAlignment="Stretch" Grid.Column="5" DropDownClosed="colors_DropDownClosed">
+                <ComboBoxItem>
+                    <Rectangle Fill="Azure" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="Aqua" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="Chocolate" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="Black" Height="30px"/>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <Rectangle Fill="White" Height="30px"/>
+                </ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Grid Grid.Row="2">
+            <RichEditBox HorizontalAlignment="Stretch" x:Name="editText"/>
+        </Grid>
+    </Grid>
+</Page>

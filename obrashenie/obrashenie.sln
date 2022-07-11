@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "obrashenie", "obrashenie\obrashenie.csproj", "{D28E5123-06E1-4E0B-8AF7-A9EEC8270F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28E5123-06E1-4E0B-8AF7-A9EEC8270F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28E5123-06E1-4E0B-8AF7-A9EEC8270F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28E5123-06E1-4E0B-8AF7-A9EEC8270F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28E5123-06E1-4E0B-8AF7-A9EEC8270F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25B2DF0C-BE0B-440A-92F3-810FAFB1B172}
+	EndGlobalSection
+EndGlobal

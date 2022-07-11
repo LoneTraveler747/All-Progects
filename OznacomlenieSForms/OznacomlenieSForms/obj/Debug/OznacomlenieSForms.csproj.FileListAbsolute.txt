@@ -1,0 +1,9 @@
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\bin\Debug\OznacomlenieSForms.exe.config
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\bin\Debug\OznacomlenieSForms.exe
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\bin\Debug\OznacomlenieSForms.pdb
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\obj\Debug\OznacomlenieSForms.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\obj\Debug\OznacomlenieSForms.Properties.Resources.resources
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\obj\Debug\OznacomlenieSForms.csproj.GenerateResource.cache
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\obj\Debug\OznacomlenieSForms.exe
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\obj\Debug\OznacomlenieSForms.pdb
+C:\Users\Lone_Traveler\source\repos\OznacomlenieSForms\OznacomlenieSForms\obj\Debug\OznacomlenieSForms.Form1.resources

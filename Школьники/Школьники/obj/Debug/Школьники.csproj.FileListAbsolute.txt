@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\bin\Debug\Школьники.exe.config
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\bin\Debug\Школьники.exe
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\bin\Debug\Школьники.pdb
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\obj\Debug\Школьники.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\obj\Debug\Школьники.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\obj\Debug\Школьники.exe
+C:\Users\Lone_Traveler\source\repos\Школьники\Школьники\obj\Debug\Школьники.pdb

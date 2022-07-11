@@ -1,0 +1,6 @@
+C:\Users\Lone_Traveler\source\repos\menu\menu\bin\Debug\menu.exe.config
+C:\Users\Lone_Traveler\source\repos\menu\menu\bin\Debug\menu.exe
+C:\Users\Lone_Traveler\source\repos\menu\menu\bin\Debug\menu.pdb
+C:\Users\Lone_Traveler\source\repos\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\menu\menu\obj\Debug\menu.exe
+C:\Users\Lone_Traveler\source\repos\menu\menu\obj\Debug\menu.pdb

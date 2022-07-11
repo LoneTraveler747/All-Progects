@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="NeVB.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NeVB"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Loaded="Grid_Loaded" Margin="0,-6,0,6">
+        <TextBlock HorizontalAlignment="Left" Height="81" Margin="684,10,0,0" Text="Крестики \нолики" TextWrapping="Wrap" VerticalAlignment="Top" Width="569" FontFamily="Times New Roman" FontSize="72"/>
+        <Button x:Name="B1" Height="129" Margin="299,159,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B2" Height="129" Margin="783,159,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B3" Height="129" Margin="1275,159,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B4" Height="129" Margin="299,374,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B5" Height="129" Margin="783,374,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B6" Height="129" Margin="1275,374,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B7" Height="129" Margin="299,585,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B8" Height="129" Margin="783,585,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="B9" Height="129" Margin="1275,585,0,0" VerticalAlignment="Top" Width="280" FontFamily="Times New Roman" FontSize="72" Click="B1_Click"/>
+        <Button x:Name="Start" Content="Start Game" Height="174" Margin="299,807,0,0" VerticalAlignment="Top" Width="483" FontFamily="Times New Roman" FontSize="72" Click="Start_Click" RenderTransformOrigin="0.028,0.563"/>
+        <Button x:Name="Clear" Content="Clear" Height="174" Margin="1072,807,0,0" VerticalAlignment="Top" Width="483" FontFamily="Times New Roman" FontSize="72" Click="Clear_Click"/>
+        <TextBlock x:Name="X" HorizontalAlignment="Left" Margin="299,59,0,0" Text="Счет X:" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="306" FontFamily="Times New Roman" FontSize="72"/>
+        <TextBlock x:Name="O" HorizontalAlignment="Left" Margin="1275,59,0,0" Text="Счет O:" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="306" FontFamily="Times New Roman" FontSize="72"/>
+        <TextBlock x:Name="Schet" HorizontalAlignment="Left" Height="49" Margin="782,93,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" FontFamily="Times New Roman" FontSize="20"/>
+
+    </Grid>
+</Page>

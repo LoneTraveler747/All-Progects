@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\obj\Debug\Con6544.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\obj\Debug\Con6544.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\bin\Debug\Con6544.exe.config
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\bin\Debug\Con6544.exe
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\bin\Debug\Con6544.pdb
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\obj\Debug\Con6544.exe
+C:\Users\Lone_Traveler\source\repos\Con6544\Con6544\obj\Debug\Con6544.pdb

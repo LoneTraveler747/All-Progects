@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\bin\Debug\Prakti4eskaya s tortom.exe.config
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\bin\Debug\Prakti4eskaya s tortom.exe
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\bin\Debug\Prakti4eskaya s tortom.pdb
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\obj\Debug\Prakti4eskaya s tortom.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\obj\Debug\Prakti4eskaya s tortom.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\obj\Debug\Prakti4eskaya s tortom.exe
+C:\Users\Lone_Traveler\source\repos\Prakti4eskaya s tortom\Prakti4eskaya s tortom\obj\Debug\Prakti4eskaya s tortom.pdb

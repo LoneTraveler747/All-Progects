@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "Market";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>Warframe.Главная</title>
+</head>
+<body>
+    <div id="mainContent">
+        <div id="newsIndex">
+            <div style="background-color:whitesmoke;color:white;padding:20px;opacity: .9;">
+                    <form id="register" method="post">
+                        <input type="text" name="filter" placeholder="Фильтр"/>
+                        <input type="submit" value="Отфильтровать"/>
+                    </form>
+            </div>
+            <div style="background-color:whitesmoke;color:white;padding:20px;opacity: .9;">
+                <img style="margin-left:825px;" src="~/Img/Валькирия_Прайм_вики.png" />
+                <table align="center" style="color:white;" width="400px" border="1">
+                    <tr>
+                        <td colspan="2">
+                            <form id="register" method="post">
+                                <input type="submit" value="Добавить в корзину" />
+                            </form>
+                            <p style="color:black"> Информация </p>
+                            <div class="info">
+                                <input id="info__body_1" class="info__switch" type="checkbox">
+                                <label for="info__body_1" class="info__headline">Примечание</label>
+                                <div class="info__body">
+                                    <p style="color:black">В скандинавской мифологии Валькирия — воительница, переправляющая души погибших воинов в Вальхаллу.</p>
+                                </div>
+                                <table align="center" style="color:white;" width="400px" border="1">
+                                    <tr>
+                                        <td colspan="2">
+                                            <img style="margin-left: 25%;" src="~/Img/SystemValk.png" />
+                                        </td>
+                                        <td colspan="2">
+                                            <p style="color:black;position:center;margin-left:20%">Система.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" style="color:white;" width="400px" border="1">
+                                    <tr>
+                                        <td colspan="2">
+                                            <img style="margin-left: 25%;" src="~/Img/Karkas.png" />
+                                        </td>
+                                        <td colspan="2">
+                                            <p style="color:black;position:center;margin-left:20%">Каркас.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table align="center" style="color:white;" width="400px" border="1">
+                                    <tr>
+                                        <td colspan="2">
+                                            <img style="margin-left: 25%;" src="~/Img/Head.png" />
+                                        </td>
+                                        <td colspan="2">
+                                            <p style="color:black;position:center;margin-left:20%">Нейрооптика.</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img style="margin:auto" src="~/Img/platinum.png" />
+                        </td>
+                        <td>
+                            <p style="color:black"> 45_ед</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="~/Img/Plastids.png" />
+                        </td>
+                        <td>
+                            <p style="color:black"> 400 </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

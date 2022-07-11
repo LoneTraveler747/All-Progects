@@ -1,0 +1,7 @@
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\bin\Debug\Podprogramma.exe.config
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\bin\Debug\Podprogramma.exe
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\bin\Debug\Podprogramma.pdb
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\obj\Debug\Podprogramma.csprojAssemblyReference.cache
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\obj\Debug\Podprogramma.csproj.CoreCompileInputs.cache
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\obj\Debug\Podprogramma.exe
+C:\Users\Lone_Traveler\source\repos\Podprogramma\Podprogramma\obj\Debug\Podprogramma.pdb
